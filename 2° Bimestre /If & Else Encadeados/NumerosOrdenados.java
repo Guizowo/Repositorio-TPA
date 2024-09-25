@@ -4,7 +4,7 @@ public class Ordemdosnumeros {
 	public static void main(String[] args) {
 	Scanner ler = new Scanner(System.in);
 		
-		// Declarando vari·veis
+		// Declarando vari√°veis
 		float a, b, c;
 		
 		// Atribuindo valores

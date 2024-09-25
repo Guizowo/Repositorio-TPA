@@ -69,8 +69,8 @@ public class IdadeNome {
 				idadeNovo = idade;
 				nomeNovo = nome;
 			}
-			System.out.println("A pessoa mais nova é "+nomeNovo+" e sua idade é "+idadeNovo);
-			System.out.println("A pessoa mais velha é "+nomeVelho+" e sua idade é "+idadeVelho);
+			System.out.println("A pessoa mais nova Ã© "+nomeNovo+" e sua idade Ã© "+idadeNovo);
+			System.out.println("A pessoa mais velha Ã© "+nomeVelho+" e sua idade Ã© "+idadeVelho);
 			
 			ler.close();
 		}

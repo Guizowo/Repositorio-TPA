@@ -4,7 +4,7 @@ public class Notas {
 	public static void main(String[] args) {
 	Scanner ler = new Scanner(System.in);
 	
-	// Declarando variáveis
+	// Declarando variÃ¡veis
 	
 	System.out.println("Escreva a primeira nota");
 	double nota1 = ler.nextDouble();
@@ -16,7 +16,7 @@ public class Notas {
 	
 	// If else
 	if (media >=6) {
-		System.out.println("Aluno aprovado! Sua nota é "+media);
+		System.out.println("Aluno aprovado! Sua nota Ã© "+media);
 	}
 	else if (media >=3 && media < 6) {
 		System.out.println("Aluno em exame");
@@ -27,14 +27,14 @@ public class Notas {
 		double media2 = (exame+media)/2;
 		
 		if (media2 >=6 ) {
-			System.out.println("Aluno aprovado! Sua nota é "+media2);
+			System.out.println("Aluno aprovado! Sua nota Ã© "+media2);
 		}
 		else {
-			System.out.println("Aluno reprovado! Sua nota é "+media2);
+			System.out.println("Aluno reprovado! Sua nota Ã© "+media2);
 		}
 	}
 	else {
-		System.out.println("Aluno reprovado! Sua nota é "+media);
+		System.out.println("Aluno reprovado! Sua nota Ã© "+media);
 	}
 	ler.close();
 	}

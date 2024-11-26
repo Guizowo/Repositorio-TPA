@@ -1,4 +1,4 @@
-//Criar um programa que leia um vetor A com 10 posiçoes de inteiro e imprima na tela
+//Criar um programa que leia um vetor A com 10 posiÃ§oes de inteiro e imprima na tela
 //um vetor B sendo que cada elemento B seja o quadrad de A
 import java.util.Scanner;
 public class Exercicio1 {

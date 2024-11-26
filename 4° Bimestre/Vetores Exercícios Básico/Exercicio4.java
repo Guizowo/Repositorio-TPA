@@ -16,12 +16,12 @@ public class Exercicio4 {
 			a[i] = in.nextInt();
 		}
 		
-		// Calculando a média
+		// Calculando a mÃ©dia
 		for (i=0; i<TAM; i++) {
 			soma = soma+a[i];		
 		}
 		soma = soma/i;
-		System.out.println("A média do vetor é "+soma);
+		System.out.println("A mÃ©dia do vetor Ã© "+soma);
 		
 		// Identificando o maior
 		for (i=0; i<TAM; i++) {
@@ -29,7 +29,7 @@ public class Exercicio4 {
 				valor = a[i];	
 			}
 		}
-		System.out.println("O maior número é "+valor+" e sua posição no vetor é "+i);
+		System.out.println("O maior nÃºmero Ã© "+valor+" e sua posiÃ§Ã£o no vetor Ã© "+i);
 	}
 
 }
